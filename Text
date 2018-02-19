@@ -1,6 +1,15 @@
-What is an object?
+1)What is an object?
 
-How do you access a property of an object?
-What is the index of the first item in an array?
-What syntax can you use to get the third item in an array?
-How do you use a variable nad a loop to get every item in an array?
+Javascript object is a data container.
+organizing method of variables。
+
+2)How do you access a property of an object?
+Syntax such as it's name.
+
+3)What is the index of the first item in an array?
+1st item-0,2rd itme-1...
+
+4)What syntax can you use to get the third item in an array?
+2.
+
+5)How do you use a variable nad a loop to get every item in an array?
