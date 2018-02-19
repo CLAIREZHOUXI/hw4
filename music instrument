@@ -3,13 +3,13 @@ var song;
 
 function preload() {
   // Load a sound file
-  song = loadSound('9761.mp3');
+  song = loadSound('Korean temple blocks 2.wav');
 }
 
 function setup() {
   createCanvas(710, 400);
 
-  // Loop the sound forever
+  // Loop the sound 
   // (well, at least until stop() is called)
   song.loop();
 }
@@ -17,7 +17,7 @@ function setup() {
 function draw() {
   background(20);
 
-  // Set the volume to a range between 0 and 1.0
+  // Set the volume:range between 0 and 1.0
   var volume = map(mouseX, 0, width, 0, 1);
   volume = constrain(volume, 0, 1);
   song.amp(volume);
